@@ -11,7 +11,7 @@ import UIKit
 import RxSwift
 
 final class CountriesDataSource: NSObject, UIPickerViewDataSource, UIPickerViewDelegate {
-    let countries = ["Germany", "Netherlands"]
+    let countries = ["Germany", "Poland"]
     let selectedIndex = Variable<Int>(0)
     
     func numberOfComponents(in pickerView: UIPickerView) -> Int {
